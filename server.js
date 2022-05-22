@@ -3,7 +3,7 @@ const connectDB = require ('./config/db');
 const app = express();
 
 //Connect Datbase
-connectDB();
+connectDB;
 
 app.get("/", (req, res) => res.send('API RUNNING'));
 
